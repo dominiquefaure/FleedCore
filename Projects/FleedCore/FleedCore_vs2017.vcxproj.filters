@@ -41,6 +41,18 @@
     <ClInclude Include="..\..\Sources\FleedCore\Common\Includes.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Application\WindowsAppConfig.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Application\WinMainLauncher.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Application\FleedApplication.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Application\Includes.h">
+      <Filter>Application</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="DesignPatterns">
@@ -51,6 +63,9 @@
     </Filter>
     <Filter Include="Common">
       <UniqueIdentifier>{3be0e6b5-f8d2-4b2c-b8a7-75d493c166b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{051f1731-251d-4b93-88af-e6071eb92709}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +106,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Sources\FleedCore\DesignPatterns\ReferenceCountedPtr.cpp">
       <Filter>DesignPatterns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FleedCore\Application\WinMainLauncher.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FleedCore\Application\FleedApplication.cpp">
+      <Filter>Application</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
