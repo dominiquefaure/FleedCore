@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\Sources\FleedCore\FleedCore.h" />
+    <ClInclude Include="..\..\Sources\FleedCore\DesignPatterns\Singleton.h">
+      <Filter>DesignPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Math\Matrix44.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Math\Vector3F.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Math\Color.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Math\MathMacros.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Math\Maths.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Math\includes.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\DesignPatterns\ReferenceCounted.h">
+      <Filter>DesignPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\DesignPatterns\ReferenceCountedPtr.h">
+      <Filter>DesignPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\DesignPatterns\includes.h">
+      <Filter>DesignPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Common\CommonMacros.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Common\BaseDataTypes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FleedCore\Common\Includes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DesignPatterns">
+      <UniqueIdentifier>{e1864f75-5d45-4b00-bcaa-0b597ef5b1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{1bbc9654-713e-43bc-aaf5-f2275bc225b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{3be0e6b5-f8d2-4b2c-b8a7-75d493c166b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Sources\FleedCore\Math\Matrix44.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\Sources\FleedCore\Math\Vector3F.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\Sources\FleedCore\Math\Color.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\Sources\FleedCore\Math\Maths.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="..\..\Sources\FleedCore\DesignPatterns\ReferenceCounted.inl">
+      <Filter>DesignPatterns</Filter>
+    </None>
+    <None Include="..\..\Sources\FleedCore\DesignPatterns\ReferenceCountedPtr.inl">
+      <Filter>DesignPatterns</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Sources\FleedCore\Math\Vector3F.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FleedCore\Math\Color.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FleedCore\Math\Maths.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FleedCore\Math\Matrix44.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FleedCore\DesignPatterns\ReferenceCounted.cpp">
+      <Filter>DesignPatterns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FleedCore\DesignPatterns\ReferenceCountedPtr.cpp">
+      <Filter>DesignPatterns</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
